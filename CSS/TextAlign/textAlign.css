@@ -1,0 +1,29 @@
+h1{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    padding: 5px 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body{
+    background-color: peachpuff;
+}
+
+.text1{
+text-align: left;
+}
+
+.text2{
+text-align: center;
+}
+
+
+.text3{
+text-align: right;
+}
+
