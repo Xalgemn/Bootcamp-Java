@@ -1,0 +1,136 @@
+.Diana1{
+    border-radius: 50%;
+    background-color: red;
+    height: 610px;
+    width: 610px;
+    position: relative;
+    top: 45px;
+    left: 45px;
+    z-index: 1;
+}
+
+.Diana2{
+    border-radius: 50%;
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.Diana3{
+    border-radius: 50%;
+    background-color: red;
+    height: 525px;
+    width: 525px;
+    position: absolute;
+    top: 87.5px;
+    left: 87.5px;
+    z-index: 3;
+
+}
+
+.Diana4{
+    border-radius: 50%;
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    z-index: 4;
+
+}
+
+.Diana5{
+    border-radius: 50%;
+    background-color: red;
+    height: 375px;
+    width: 375px;
+    position: absolute;
+    top: 162.5px;
+    left: 162.5px;
+    z-index: 5;
+
+}
+
+.Diana6{
+    border-radius: 50%;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 6;
+
+}
+
+.Diana7{
+    border-radius: 50%;
+    background-color: red;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    top: 237.5px;
+    left: 237.5px;
+    z-index: 7;
+
+}
+
+.Diana8{
+    border-radius: 50%;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 275px;
+    left: 275px;
+    z-index: 8;
+
+}
+
+.Diana9{
+    border-radius: 50%;
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    top: 312.5px;
+    left: 312.5px;
+    z-index: 9;
+
+}
+
+.Borde{
+    border-radius: 50%;
+    background-color:darkgray;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    top: 125px;
+    left: 525px;
+    z-index: 0;
+}
+
+.Horizontal{
+    background-color: black;
+    width: 610px;
+    height: 3px;
+    position: absolute;
+    top: 350px;
+    left: 45px;
+    z-index: 10;
+}
+
+.Vertical{
+    background-color: black;
+    width: 3px;
+    height: 610px;
+    position: absolute;
+    top: 45px;
+    left: 350px;
+    z-index: 10;
+}

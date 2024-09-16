@@ -1,0 +1,59 @@
+.Red{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 2px solid black;
+}
+
+.Circle1{
+ background-color: greenyellow;
+ position: absolute;
+ top: -10px;
+ left: -10px;
+ height: 30px;
+ width: 30px;
+ border-radius: 50%;
+ border: 2px solid black;
+}
+
+.Circle2{
+background-color: greenyellow;
+position: absolute;
+top: -10px;
+left: 280px;
+height: 30px;
+width: 30px;
+border-radius: 50%;
+border: 2px solid black;
+}
+
+.Circle3{
+ background-color: greenyellow;
+ position: absolute;
+top: 280px;
+left: -10px;
+height: 30px;
+width: 30px;
+border-radius: 50%;
+border: 2px solid black;
+}
+
+.Circle4{
+ background-color: greenyellow;
+ position: absolute;
+top: 280px;
+left: 280px;
+height: 30px;
+width: 30px;
+border-radius: 50%;
+border: 2px solid black;
+}
+
+p{
+    text-align: center;
+    position: relative ;
+    top: -10px;
+}
