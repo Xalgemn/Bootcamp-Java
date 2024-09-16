@@ -1,0 +1,23 @@
+.Blue{
+    background-color: rgba(0, 0, 255, 50%);
+}
+
+.Green{
+    background-color: rgba(0, 255, 0, 50%);
+}
+
+.Red{
+    background-color: rgba(255, 0, 0, 50%);
+}
+
+.Cyan{
+    background-color: rgba(0, 255, 255, 50%);
+}
+
+.Yellow{
+    background-color: rgba(255, 255, 0, 50%);
+}
+
+.Violet{
+    background-color: rgba(255, 0, 255, 50%);
+}
