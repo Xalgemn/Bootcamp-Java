@@ -1,0 +1,188 @@
+@media (min-width: 320px)
+{
+    .orange{
+        width: 95%;
+        height: 50px;
+        background-color: orange;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .orangeContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .yellow{
+        width: 95%;
+        height: 100px;
+        background-color: yellow;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .yellowContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .blue{
+        width: 95%;
+        height: 150px;
+        background-color: blue;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .blueContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gray{
+        float: inline-end;
+        width: 96%;
+        height: 50px;
+        background-color: gray;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    
+    .grayContainer{
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+   
+}
+@media (min-width: 768px)
+{
+    .orange{
+        width: 95%;
+        height: 70px;
+        background-color: orange;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .orangeContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .yellow{
+        width: 95%;
+        height: 210px;
+        background-color: yellow;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .yellowContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blue{
+        width: 95%;
+        height: 75px;
+        background-color: blue;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .blueContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .gray{
+        float: right;
+        width: 47%;
+        height: 150px;
+        background-color: gray;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    
+    .grayContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
+@media (min-width: 1024px)
+{
+    .orange{
+
+        float: right;
+        width: 48%;
+        height: 50px;
+        background-color: orange;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .orangeContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .yellow{
+        float:right;
+        width: 98%;
+        height: 280px;
+        background-color: yellow;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .yellowContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .blue{  
+        float:inline-end;
+        width: 32.3%;
+        height: 200px;
+        background-color: blue;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    
+    .blueContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gray{
+        float: inline-end;
+        width: 23.9%;
+        height: 160px;
+        background-color: gray;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    
+    .grayContainer{
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+

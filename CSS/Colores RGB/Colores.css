@@ -1,23 +1,101 @@
 .Blue{
-    background-color: rgba(0, 0, 255, 50%);
+    background-color: rgb(0, 0, 255);
+    mix-blend-mode: color;
+    height: 100px;
+    width: 100px;
 }
 
 .Green{
-    background-color: rgba(0, 255, 0, 50%);
+    background-color: rgb(0, 255, 0);
+    mix-blend-mode: color;
+    height: 100px;
+    width: 100px;
 }
 
 .Red{
-    background-color: rgba(255, 0, 0, 50%);
+    background-color: rgb(255, 0, 0);
+    mix-blend-mode: color;
+    height: 100px;
+    width: 100px;
 }
 
 .Cyan{
-    background-color: rgba(0, 255, 255, 50%);
+    background-color: rgb(0, 255, 255);
+    height: 100px;
+    width: 100px;
 }
 
 .Yellow{
-    background-color: rgba(255, 255, 0, 50%);
+    background-color: rgb(255, 255, 0);
+    height: 100px;
+    width: 100px;
 }
 
 .Violet{
-    background-color: rgba(255, 0, 255, 50%);
+    background-color: rgb(255, 0, 255);
+    height: 100px;
+    width: 100px;
+}
+
+div{
+    border-radius: 50%;
+}
+
+table{
+    border-collapse: separate;
+    
+    float: right;
+}
+
+td{
+    height: 100px;
+    width: 5px;
+}
+th{
+    text-align: left;
+}
+.tableFir{
+    border-spacing: 25px;
+    
+}
+.tableSec{
+    border-spacing: 10px;
+    clear: both;
+}
+.firRow
+{
+    padding: 5px;
+}
+.MRed{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    mix-blend-mode: screen;
+    background-color: rgb(255, 0, 0);
+}
+.MGreen{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    mix-blend-mode: screen;
+    background-color: rgb(0, 255, 0)
+}
+.MBlue{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 165px;
+    mix-blend-mode:screen;
+    background-color: rgb(0, 0, 255);
+}
+
+h1{
+    position: absolute;
+    top: 100px;
+    left: 240px;
 }
