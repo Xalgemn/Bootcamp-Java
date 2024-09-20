@@ -1,5 +1,5 @@
 body {
-  background: gray;
+  background-color: rgb(233, 231, 231);
   margin: 0px;
 }
 
@@ -65,7 +65,7 @@ p {
   flex-direction: column;
   margin-left: 20%;
   margin-right: 1%;
-  background-color: blue;
+  background-color: rgb(233, 231, 231);
   width: 42%;
   height: 1000px;
   float: left;
@@ -86,16 +86,15 @@ p {
 
 .popular {
   width: 100%;
-  height: 400px;
+  height: 42%;
   background-color: white;
   margin-bottom: 3%;
 }
 
 .today {
   width: 100%;
-  height: 400px;
-  background-color: azure;
-  margin-bottom: 3%;
+  height: 50%;
+  background-color: white;
 }
 
 .week {
@@ -104,6 +103,8 @@ p {
   align-items: center;
   font-size: small;
   padding: 2%;
+  color: black;
+  border-bottom: 1px solid lightgray;
 }
 
 .close {
@@ -116,4 +117,157 @@ h2 {
   margin: 0px;
 }
 
-/*# sourceMappingURL=style.scss.map */
+.bottomDuo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.likes {
+  color: black;
+  margin: 0px;
+  height: auto;
+  padding: 5px;
+  min-height: 18px;
+}
+
+.comments {
+  color: darkgray;
+  margin: 0px;
+  height: auto;
+  padding: 5px;
+}
+
+.phone {
+  color: black;
+  background-color: lightgray;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.pSidePhone {
+  color: darkgrey;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.testImg {
+  height: auto;
+  width: auto;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.duolingo {
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  font-size: smaller;
+  justify-content: space-between;
+}
+
+.duoLeft {
+  display: flex;
+  flex-direction: row;
+}
+
+.duoRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  margin-top: 0px;
+}
+
+.containerText {
+  width: 80%;
+}
+
+.showMore {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: small;
+  width: 50%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+.textShowMore {
+  padding-left: 2%;
+}
+
+.rightLikes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10%;
+  border-color: lightgrey;
+  height: 50%;
+  margin-right: 5%;
+}
+
+.rightComments {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10%;
+  border-color: lightgrey;
+  height: 50%;
+  margin-left: 5%;
+}
+
+.smallImg {
+  height: auto;
+  width: auto;
+  max-width: 10px;
+  max-height: 10px;
+}
+
+.rightToday {
+  display: flex;
+  flex-direction: row;
+  margin-right: 4%;
+}
+
+.popular {
+  color: black;
+}
+
+.newest {
+  color: lightgrey;
+  margin-right: 5%;
+  padding-right: 5%;
+  padding-left: 15%;
+}
+
+.slack {
+  background-color: white;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.kittyH2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: x-small;
+  padding: 5%;
+}
+
+.pFeline {
+  padding: 5%;
+  margin: 0px;
+}
+
+.kittyButton {
+  margin-left: 5%;
+  margin-right: 5%;
+}/*# sourceMappingURL=style.css.map */
