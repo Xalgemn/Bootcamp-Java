@@ -252,6 +252,7 @@ h2 {
   height: 15%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 
 .kittyH2 {
@@ -270,4 +271,17 @@ h2 {
 .kittyButton {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.upcoming {
+  border-bottom: 1px solid gray;
+  height: 4%;
+}
+
+.liveChats {
+  font-size: xx-small;
+  text-align: left;
+  background-color: white;
+  height: 60%;
+  padding: 5%;
 }/*# sourceMappingURL=style.css.map */
