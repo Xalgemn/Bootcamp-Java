@@ -1,0 +1,1 @@
+Ejecuta el codigo 1 vez y como 'i' es igual a 0, se suma 1 al valor 'i' y se resta a 'numero', como numero es menor que 5 se repite el codigo, solo que esta vez como 'i' es igual a 1, se ejecuta el else sumando +1 a 'numero' repitiendose asi hasta que este llegue a 5

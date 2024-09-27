@@ -5,13 +5,22 @@ function AO(palabra){
 
 console.log(AO('aaa'));
 
-function Aca(word1, word2){
+function Aca(word){
     
-    word1.startsWith('aca');
-    word2.startsWith('aca');
+    const result = word.startsWith('aca');
+    
+
+    return result;
 }
 
-console.log(Aca('academia', 'escuela'));
+console.log(Aca('academia'));
+console.log(Aca('escuela'));
 
+function Repeat(word){
+    const result = word.repeat(3);
+    return result;
+}
+
+console.log(Repeat('Hola '));
 
 
