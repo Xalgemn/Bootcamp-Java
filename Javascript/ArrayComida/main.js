@@ -36,14 +36,27 @@ const array5 = ["🎴", "🎴", "🎴", "🃏", "🎴", "🎴", "🎴"];
 
 // array3.findIndex(changeFresas);
 // console.log(array3);
+//const arrayAux = [];
+//array4.forEach((element, index, array) => {
+//    (element == "🌶" && array[index+1] != '🥵')
+//        ?arrayAux.push("🌶", '🥵') //true
+//        :arrayAux.push(element); //false
+//});
 
-array4.forEach((element, index, array) => {
-    if(element == "🌶" && array[index+1] != '🥵'){
-        array4.splice(index + 1, 0, "🥵")
-       
-    }
-    console.log(array4);
+//console.log(arrayAux);
+
+const arrayAux2 = [];
+array5.forEach((element, index, array) => {
+
+    (element == "🎴" && array[index+1] != '🃏')
+        ?arrayAux2.push("🎴", '🃏')
+        :arrayAux2.push(element);
+
 });
+
+console.log(arrayAux2);
+
+
 
 
 
