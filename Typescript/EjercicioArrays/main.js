@@ -1,46 +1,49 @@
-var thisArray = [];
-var buttonPush = document.getElementById("push");
-var buttonUnshift = document.getElementById("unshift");
-var buttonInsert = document.getElementById("insert");
-var buttonPop = document.getElementById("pop");
-var buttonShift = document.getElementById("shift");
-var buttonRemove = document.getElementById("remove");
-var insertSelect = document.getElementById("insertIndex");
-var removeSelect = document.getElementById("removeIndex");
-function arrayPush() {
-    thisArray.push("🎂");
+"use strict";
+const thisArray = [];
+const arrayItems = ['👽', '👾', '🤠'];
+const randomItem = (arrayItems) => { return arrayItems[(Math.floor(Math.random() * arrayItems.length))]; };
+const buttonPush = document.getElementById("push");
+const buttonUnshift = document.getElementById("unshift");
+const buttonInsert = document.getElementById("insert");
+const buttonPop = document.getElementById("pop");
+const buttonShift = document.getElementById("shift");
+const buttonRemove = document.getElementById("remove");
+const insertSelect = document.getElementById("insertIndex");
+const removeSelect = document.getElementById("removeIndex");
+const arrayPush = () => {
+    thisArray.push(randomItem(arrayItems));
     actualizarH1(thisArray.toString());
-}
-function arrayUnshift() {
-    thisArray.unshift("👀");
+};
+const arrayUnshift = () => {
+    thisArray.unshift(randomItem(arrayItems));
     actualizarH1(thisArray.toString());
-}
-function arrayInsert() {
-    var selectedIndex = insertSelect.value;
-    var index = parseInt(selectedIndex);
-    thisArray.splice(index, 0, "🎁");
+};
+const arrayInsert = () => {
+    const selectedIndex = insertSelect.value;
+    const index = parseInt(selectedIndex);
+    thisArray.splice(index, 0, randomItem(arrayItems));
     actualizarH1(thisArray.toString());
-}
-function arrayPop() {
+};
+const arrayPop = () => {
     thisArray.pop();
     actualizarH1(thisArray.toString());
-}
-function arrayShift() {
+};
+const arrayShift = () => {
     thisArray.shift();
     actualizarH1(thisArray.toString());
-}
-function arrayRemove() {
-    var removeIndex = removeSelect.value;
-    var index = parseInt(removeIndex);
+};
+const arrayRemove = () => {
+    const removeIndex = removeSelect.value;
+    const index = parseInt(removeIndex);
     thisArray.splice(index, 1);
     actualizarH1(thisArray.toString());
-}
-function actualizarH1(texto) {
-    var h1 = document.getElementById("arrayText");
+};
+const actualizarH1 = (texto) => {
+    const h1 = document.getElementById("arrayText");
     if (h1) {
         h1.textContent = texto;
     }
-}
+};
 buttonPush.addEventListener("click", arrayPush);
 buttonUnshift.addEventListener("click", arrayUnshift);
 buttonInsert.addEventListener("click", arrayInsert);

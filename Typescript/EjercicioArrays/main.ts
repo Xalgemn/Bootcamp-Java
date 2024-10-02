@@ -1,5 +1,8 @@
 const thisArray: string[] = [];
 
+const arrayItems: string[] = ['👽', '👾', '🤠'];
+const randomItem = (arrayItems: string[]): string => { return arrayItems[(Math.floor(Math.random() * arrayItems.length))] };
+
 const buttonPush = document.getElementById("push") as HTMLButtonElement;
 const buttonUnshift = document.getElementById("unshift") as HTMLButtonElement;
 const buttonInsert = document.getElementById("insert") as HTMLButtonElement;
@@ -10,36 +13,35 @@ const buttonRemove = document.getElementById("remove") as HTMLButtonElement;
 const insertSelect = document.getElementById("insertIndex") as HTMLSelectElement;
 const removeSelect = document.getElementById("removeIndex") as HTMLSelectElement;
 
-function arrayPush() {
-    thisArray.push("🎂");
+const arrayPush = () => {
+    thisArray.push(randomItem(arrayItems));
     actualizarH1(thisArray.toString());
 }
 
-function arrayUnshift(){
-    thisArray.unshift("👀");
+const arrayUnshift = () => {
+    thisArray.unshift(randomItem(arrayItems));
     actualizarH1(thisArray.toString());
 }
 
-function arrayInsert(){
+const arrayInsert = () => {
     const selectedIndex = insertSelect.value;
     const index = parseInt(selectedIndex);
 
-
-    thisArray.splice(index, 0,"🎁");
+    thisArray.splice(index, 0, randomItem(arrayItems));
     actualizarH1(thisArray.toString());
 }
 
-function arrayPop() {
+const arrayPop = () => {
     thisArray.pop();
     actualizarH1(thisArray.toString());
 }
 
-function arrayShift() {
+const arrayShift = () => {
     thisArray.shift();
     actualizarH1(thisArray.toString());
 }
 
-function arrayRemove(){
+const arrayRemove = () => {
     const removeIndex = removeSelect.value;
     const index = parseInt(removeIndex);
 
@@ -47,18 +49,16 @@ function arrayRemove(){
     actualizarH1(thisArray.toString());
 }
 
-function actualizarH1(texto: string) {
+const actualizarH1 = (texto: string) => {
     const h1 = document.getElementById("arrayText");
     if (h1) {
         h1.textContent = texto;
     }
 }
 
-
-
 buttonPush.addEventListener("click", arrayPush);
 buttonUnshift.addEventListener("click", arrayUnshift);
 buttonInsert.addEventListener("click", arrayInsert);
 buttonPop.addEventListener("click", arrayPop);
 buttonShift.addEventListener("click", arrayShift);
-buttonRemove.addEventListener("click",arrayRemove);
+buttonRemove.addEventListener("click", arrayRemove);
