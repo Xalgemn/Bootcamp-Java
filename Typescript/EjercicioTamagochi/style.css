@@ -44,7 +44,10 @@ html, body{
     float: left;
 }
 .centerTama{
+  display: flex;
    position: absolute;
+   flex-direction: column;
+   align-items: center;
    top: 25%;
    left: 25%;
    width: 50%;
@@ -54,7 +57,9 @@ html, body{
 .eatBar {
     width: 80%;
     background-color: black;
+    border: 5px solid black;
     border-radius: 25px;
+    margin-top: 3%;
     height: 4%;
     overflow: hidden;
     margin-left: 1%;
@@ -64,7 +69,7 @@ html, body{
   .eatFill {
     background-color: green;
     height: 100%;
-    width: 0; /* Empieza con 0% */
+    width: 0%; /* Empieza con 0% */
     border-radius: 25px;
     transition: width 0.5s ease-in-out;
   }
@@ -72,7 +77,9 @@ html, body{
   .playBar {
     width: 80%;
     background-color: black;
+    border: 5px solid black;
     border-radius: 25px;
+    margin-top: 3%;
     height: 4%;
     overflow: hidden;
     margin-right: 1%;
@@ -82,7 +89,7 @@ html, body{
   .playFill {
     background-color: green;
     height: 100%;
-    width: 0; /* Empieza con 0% */
+    width: 0%; /* porcentaje llenar */
     border-radius: 25px;
     transition: width 0.5s ease-in-out;
   }
@@ -90,17 +97,19 @@ html, body{
   .fightBar {
     width: 80%;
     background-color: black;
+    border: 5px solid black;
     border-radius: 25px;
+    margin-top: 3%;
     height: 4%;
     overflow: hidden;
-    margin-right: 1%;
+    margin-left: 1%;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
   }
 
   .fightFill {
     background-color: green;
     height: 100%;
-    width: 0; /* Empieza con 0% */
+    width: 0%; /* porcentaje llenar */
     border-radius: 25px;
     transition: width 0.5s ease-in-out;
   }
@@ -108,9 +117,9 @@ html, body{
   .sleepBar {
     width: 80%;
     background-color: black;
-    border: 1%;
-    border-color: black;
+    border: 5px solid black;
     border-radius: 25px;
+    margin-top: 3%;
     height: 4%;
     overflow: hidden;
     margin-right: 1%;
@@ -120,7 +129,108 @@ html, body{
   .sleepFill {
     background-color: green;
     height: 100%;
-    width: 50%; /* Empieza con 0% */
+    width: 0%; /* porcentaje llenar */
     border-radius: 25px;
+    
     transition: width 0.5s ease-in-out;
   }
+
+  .happinessBar {
+    width: 60%;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-top: 3%;
+    height: 4%;
+    overflow: hidden;
+    margin-right: 1%;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .happinessFill {
+    background-color: green;
+    height: 100%;
+    width: 0%; /* porcentaje llenar */
+    border-radius: 25px;
+    
+    transition: width 0.5s ease-in-out;
+  }
+
+  button{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+  }
+
+  .yellowButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .redButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+  }
+
+  .blueButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+  }
+
+  .greenButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    }
+
+    .greenPercent
+    {
+      margin-left: 3%;
+      
+    }
+
+    .redPercent{
+      margin-left: 3%;
+    }
+
+    .yellowPercent{
+      margin-right: 73%;
+    }
+
+    .bluePercent{
+      margin-right: 73%;
+    }
+
+    .titlePlay{
+      margin-right: 25%;
+      margin-top: 20%;
+    }
+    .titleSleep{
+      margin-right: 25%;
+      margin-top: 20%;
+      margin-bottom: 15%;
+    }
+    .titleEat{
+      margin-left: 25%;
+      margin-top: 20%;
+    }
+    .titleFight{
+      margin-left: 25%;
+      margin-top: 20%;
+      margin-bottom: 15%;
+    }
+
+    .Tama{
+      width: 30%;
+      height: auto;
+    }
+
+    
