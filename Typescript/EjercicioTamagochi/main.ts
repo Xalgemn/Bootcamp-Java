@@ -113,22 +113,17 @@ function updateHappiness() {
     }
 }
 
-class Timer {
-    constructor(public counter = 10) {
-        let intervalId = setInterval(() => {
-            this.counter = this.counter - 1;
-            console.log(counter);
-            if (this.counter == 0) {
-                clearInterval(intervalId)
-                updateFight(fightNum - Math.random() * (20 - 1) + 1);
-            }
-        }, 1000)
-    }
-
+function startTimer(): void{
+    setTimeout(() => {
+        updateFight(fightNum -= Math.floor(Math.random() * (30 - 10 +1)) + 10);
+        updateSleep(sleepNum -= Math.floor(Math.random() * (30 - 10 +1)) + 10);
+        UpdateEat(eatNum -= Math.floor(Math.random() * (30 - 10 +1)) + 10);
+        UpdatePlay(playNum -= Math.floor(Math.random() * (30 - 10 +1)) + 10);
+        startTimer();
+    }, 10000)
 }
 
-
-
+startTimer();
 
 
 

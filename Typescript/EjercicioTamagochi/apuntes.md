@@ -14,3 +14,8 @@ function updateProgressBar(percentage: number) {
 
 // Ejemplo: Actualizar la barra al 50%
 updateProgressBar(50);
+
+
+
+
+TOGGLE

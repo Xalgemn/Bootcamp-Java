@@ -101,19 +101,13 @@ function updateHappiness() {
         txtHappiness.textContent = clampedPercentage + '%' + ' Happy';
     }
 }
-var Timer = /** @class */ (function () {
-    function Timer(counter) {
-        if (counter === void 0) { counter = 10; }
-        var _this = this;
-        this.counter = counter;
-        var intervalId = setInterval(function () {
-            _this.counter = _this.counter - 1;
-            console.log(counter);
-            if (_this.counter == 0) {
-                clearInterval(intervalId);
-                updateFight(fightNum - Math.random() * (20 - 1) + 1);
-            }
-        }, 1000);
-    }
-    return Timer;
-}());
+function startTimer() {
+    setTimeout(function () {
+        updateFight(fightNum -= Math.floor(Math.random() * (30 - 10 + 1)) + 10);
+        updateSleep(sleepNum -= Math.floor(Math.random() * (30 - 10 + 1)) + 10);
+        UpdateEat(eatNum -= Math.floor(Math.random() * (30 - 10 + 1)) + 10);
+        UpdatePlay(playNum -= Math.floor(Math.random() * (30 - 10 + 1)) + 10);
+        startTimer();
+    }, 10000);
+}
+startTimer();
