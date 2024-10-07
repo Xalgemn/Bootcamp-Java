@@ -7,6 +7,31 @@
 
 const request = new XMLHttpRequest();
 
+const para = document.getElementById('text') as HTMLParagraphElement;
+const norrisButton = document.getElementById('norrisBtn') as HTMLButtonElement | null;
+
+norrisButton?.addEventListener('click', () => refresh())
+
+function refresh()
+{
+    location.reload()
+}
+
+
+const myIP = '91.126.18.227';
+const endPoint = 'https://api.chucknorris.io/jokes/random/';
+
+
+fetch(endPoint);
+
+fetch (endPoint)
+.then(request => request.json())
+.then( data => {
+    para.textContent = data.value;
+})
+
+
+
 
 
 //async function fetchNorris(): Promise<Norris[]> {
