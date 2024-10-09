@@ -13,3 +13,5 @@ fetch(endPoint);
 fetch (endPoint)
 .then(request => request.json()) // Execute the request
 .then(printData => console.log(printData)); // Print data
+
+location.reload()
